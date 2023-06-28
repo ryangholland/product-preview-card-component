@@ -115,3 +115,22 @@ h4 {
   background-color: var(--clr-neu-very-dark-blue);
   cursor: pointer;
 }
+
+@media (min-width: 600px) {
+  .card {
+    max-width: 650px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .img-container {
+    background-image: url("./images/image-product-desktop.jpg");
+    border-radius: 1rem 0 0 1rem;
+  }
+
+  .content-container {
+    padding: 2.5rem;
+    border-radius: 0 1rem 1rem 0;
+  }
+}
