@@ -6,8 +6,8 @@
   --clr-neu-dark-grayish-blue: hsl(228, 12%, 48%);
   --clr-neu-white: hsl(0, 0%, 100%);
 
-  --font-family-serif: 'Fraunces', serif;
-  --font-family-sans-serif: 'Montserrat', sans-serif;
+  --font-family-serif: "Fraunces", serif;
+  --font-family-sans-serif: "Montserrat", sans-serif;
 }
 
 *,
@@ -33,6 +33,8 @@ body {
 
   font-family: var(--font-family-sans-serif);
   font-size: 14px;
+
+  background-color: var(--clr-pri-cream);
 }
 
 .card {
@@ -45,6 +47,28 @@ body {
   background-position: center top;
   min-height: 300px;
   border-radius: 1rem 1rem 0 0;
+}
+
+.content-container {
+  background-color: var(--clr-neu-white);
+  border-radius: 0 0 1rem 1rem;
+  padding: 1.5rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0px;
+  background-color: var(--clr-pri-dark-cyan);
+  color: var(--clr-neu-white);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: var(--clr-neu-very-dark-blue);
+  cursor: pointer;
 }
 
 .attribution {
